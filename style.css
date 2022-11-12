@@ -1,0 +1,122 @@
+body{
+    /* background: #e2e1e1; */
+    background: #fff ;
+}
+#Coming_Soon{
+    font-size: clamp(60px, 17.7464788732px + 8.4507042254vw, 180px);
+    font-family: providence-bold;
+    line-height: normal;
+    position:fixed; 
+	top:150px; 
+	left:460px;
+}
+/* #My_Navigation{
+    display: inline-block;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    text-align: left;
+    color: rgb(43, 43, 43);
+    border: none;
+    background-color: transparent;
+    margin: 22px 0;
+    position: relative;
+    left: 500px;
+    outline: none;
+    cursor: pointer;
+    padding: 0,10px,0,10px;
+} */
+
+#Blog{
+    display:inline;
+    margin: 0 30px;
+    border-radius: 50% 20% / 10% 40%;
+    color: rgb(255, 255, 255);
+    background: #1a91ff;
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+}
+.NavigationBar{
+    display:inline;
+    margin: 0 30px;
+    /* margin: 0 50px; */
+}
+
+.RandStuffList{
+    display:inline;
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: rgba(0,0,0,.75);
+    margin: 0 30px;
+    
+}
+#SomeRandStuff{
+    position: fixed;
+    top:20px; 
+	left:55px; 
+}
+
+
+.section-header__description{
+    font-size: 25px;
+    line-height: 30px;
+    position: fixed;
+    bottom: 200px; 
+	left:645px;
+}
+
+#NavUl{
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    top: 20px;
+    right: 20px;
+}
+
+/* #Blog{
+    display: inline-block;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    text-align: left;
+    color: rgb(43, 43, 43);
+    border: none;
+    background-color: transparent;
+    margin: 22px 0;
+    position: relative;
+    left: 500px;
+    outline: none;
+    cursor: pointer;
+    top:1px; 
+	right:10px; 
+} */
+#LogoImage{
+    position:fixed; 
+	top:20px; 
+	left:10px; 
+    height: 10%;
+    width: 5%;
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(221, 94, 94);
+    position:fixed;
+    top: 30px;
+    right: 280px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+@font-face {
+  font-family: 'providence-bold';
+  src: url('Stay\ Strrrange.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto-Regular.ttf);
+}
+.button--small {
+    padding: 5px 10px;
+    min-width: auto;
+    border-radius: 37px;
+}
+
+
