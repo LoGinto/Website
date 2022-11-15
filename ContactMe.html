@@ -14,6 +14,8 @@
         <a href="">Contact</a> |
         </nav>
         <a href="" id = "Blog">Blog</a>         -->
+
+    
     <div>
         <ul id = "NavUl">
             <li class = "NavigationBar">Home</li>
@@ -33,22 +35,29 @@
 
 <div>
     <!-- <h3 id = "ContactFormHeader">Contact Form</h3> -->
-    <form id = "Contact_Form">
+    <!-- <form id = "Contact_Form" method="post">
         <label for="fname" id = "nameLabel">Name</label>
         <br>
-        <input type="text" id="nameInput" placeholder="Your name.."><br>
+        <input type="text" name = "TheName" id="nameInput" placeholder="Your name.."><br>
         <label for="fmail" id = "mailLabel">E-mail</label>
         <br>
-        <input type="email" id="name" placeholder="Your email.." required><br>
-        <label for="subject" id = "subjectLabel">Subject</label><br>
-        <input type="text" id="name" placeholder="Subject"><br>
+        <input type="email" class="name" id = "TheEmail" name = "TheEmail" placeholder="Your email.." required><br>
+        <label for="subject" id = "subjectLabel" >Subject</label><br>
+
+        <input type="text" id = "TheSubject" class="name" placeholder="Subject" name = "TheSubject" required>
+        <br>
         <label for="message" id = "messageLabel">Message</label><br>
         <textarea id="message"  name="message" placeholder="Write something.." style="height:200px" required></textarea>
         <br>
-    <input type="submit" value="Send">
+    <input type="submit" name = "button1" value="Send"> 
 </form>
+-->
+<div id = "ContactContainer">
+    <h3 id = "ContactMeH3">Contact Me:</h3>
+    <h4 id = "MailContact"> Mail : raining.cycles@gmail.com</h4>
+    <h4 id = "TwitterContact">Twitter: @raining_cycles</h4>
 </div>
-    
+</div>
 </body>
+</html>         
 
-</html>
