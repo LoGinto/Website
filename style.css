@@ -299,11 +299,28 @@ a:link {
 a:visited {
     color: black;
 }
+a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 #TheGameName{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size:1.3vw;
 }
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1200px) {
     #ContactMeH3{
@@ -345,6 +362,6 @@ a:visited {
         top:280px;
         left: 90px;
       }
-
 }
+
 
