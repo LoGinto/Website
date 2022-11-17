@@ -270,6 +270,41 @@ input[type=submit]{
     font-family: 'Open Sans', sans-serif;
     font-size:1.3vw;
 }
+div.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: fixed;
+    top:260px;
+    left: 200px;
+  }
+#DeadMania{
+    height: auto;
+    width: 100%;
+}
+#Games{
+    line-height: normal;
+    font-family: providence-bold;
+    font-size: 100px;
+    position:fixed;
+    top:45px; 
+	right:600px;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+#TheGameName{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.3vw;
+}
+
 @media only screen and (max-width: 1200px) {
     #ContactMeH3{
         line-height: normal;
@@ -293,6 +328,23 @@ input[type=submit]{
         font-family: 'Open Sans', sans-serif;
         font-size:1.7vw;
     }
+    #Games{
+        line-height: normal;
+        font-family: providence-bold;
+        font-size: 100px;
+        position:fixed;
+        top:45px; 
+        right:250px;
+    }
+    div.polaroid {
+        width: 30%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        position: fixed;
+        top:280px;
+        left: 90px;
+      }
 
 }
 
