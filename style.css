@@ -362,5 +362,60 @@ a:hover {
         left: 90px;
       }
 }
+@media only screen and (min-width: 1200px){
+    #MenuImage{
+        display:none;
+    }
+}
+@media only screen and (min-width: 480px){
+    #MenuImage{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #Blog{
+        display:none;
+    }
+    .dot {
+        display:none;
+      }
+      #NavUl{
+        display:none;
+      }
+    #SomeRandStuff{
+        display:none;
+    }
+    #LogoImage{
+        position:fixed; 
+        top:70px; 
+        left:160px; 
+        height: auto;
+        width: 25%;
+    }
+    #Coming_Soon{
+        font-size: clamp(60px, 17.7464788732px + 8.4507042254vw, 180px);
+        font-family: providence-bold;
+        line-height: normal;
+        display: block;
+        position:absolute; 
+        top:150px; 
+        left:100px;
+    }
+    .section-header__description{
+        display: block;
+        position:absolute; 
+        top:250px; 
+        left:150px;
+    }
+    #MenuImage{
+        position:fixed; 
+        top:20px; 
+        right:20px;
+        height: auto;
+        width: 10%;
+    }
+
+}
 
 
