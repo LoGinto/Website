@@ -1,0 +1,443 @@
+body{
+    /* background: #e2e1e1; */
+    background: rgba(0, 0, 0, 0.884) ;
+}
+#Coming_Soon{
+    font-size: clamp(60px, 17.7464788732px + 8.4507042254vw, 180px);
+    font-family: providence-bold;
+    line-height: normal;
+    display: block;
+    position:absolute; 
+	top:150px; 
+	left:460px;
+}
+
+/* #My_Navigation{
+    display: inline-block;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    text-align: left;
+    color: rgb(43, 43, 43);
+    border: none;
+    background-color: transparent;
+    margin: 22px 0;
+    position: relative;
+    left: 500px;
+    outline: none;
+    cursor: pointer;
+    padding: 0,10px,0,10px;
+} */
+
+#Blog{
+    display:inline;
+    margin: 0 30px;
+    border-radius: 50% 20% / 10% 40%;
+    color: rgb(255, 255, 255);
+    background: #1a91ff;
+    font-size:1.3vw;
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+}
+.NavigationBar{
+    display:inline;
+    margin: 0 30px;
+    font-size:1.3vw;
+    /* margin: 0 50px; */
+}
+
+.RandStuffList{
+    display:inline;
+    font-size:1.3vw;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0 30px;
+    
+}
+#SomeRandStuff{
+    position: fixed;
+    top:20px; 
+	left:55px; 
+}
+
+
+.section-header__description{
+    font-size: 25px;
+    line-height: 30px;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    bottom: 200px; 
+	left:645px;
+}
+
+#NavUl{
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    top: 20px;
+    right: 20px;
+}
+
+/* #Blog{
+    display: inline-block;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    text-align: left;
+    color: rgb(43, 43, 43);
+    border: none;
+    background-color: transparent;
+    margin: 22px 0;
+    position: relative;
+    left: 500px;
+    outline: none;
+    cursor: pointer;
+    top:1px; 
+	right:10px; 
+} */
+#LogoImage{
+    position:fixed; 
+	top:20px; 
+	left:10px; 
+    height: auto;
+    width: 5%;
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(221, 94, 94);
+    position:fixed;
+    top: 28px; 
+    right: 290px; 
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+@font-face {
+  font-family: 'providence-bold';
+  src: url('Stay\ Strrrange.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto-Regular.ttf);
+}
+.button--small {
+    padding: 5px 10px;
+    min-width: auto;
+    border-radius: 37px;
+}
+@media only screen and (max-width: 1200px) {
+    .dot {
+        height: 12px;
+        width: 12px;
+        background-color: rgb(221, 94, 94);
+        position:fixed;
+        top: 25px; 
+        right: 255px; 
+        border-radius: 50%;
+        display: inline-block;
+      }
+    #SomeRandStuff{
+        position: fixed;
+        top:12px; 
+        left:30px; 
+    }
+    #NavUl{
+        position: fixed;
+        font-family: 'Open Sans', sans-serif;
+        top: 10px;
+        right: 20px;
+    }
+    #Coming_Soon{
+        font-size: clamp(60px, 17.7464788732px + 8.4507042254vw, 180px);
+        font-family: providence-bold;
+        line-height: normal;
+        display: block;
+        position:absolute; 
+        top:150px; 
+        left:300px;
+    }
+    .section-header__description{
+        font-size: 25px;
+        line-height: 30px;
+        position: fixed;
+        font-family: 'Open Sans', sans-serif;
+        bottom: 280px; 
+        left:400px;
+    }
+    
+}
+input[type=text], select {
+    width: 300%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 300%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea {
+    width: 300%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    /* background-color: #f8f8f8; */
+    font-size: 16px;
+    resize: none;
+  }
+#Contact_Form{
+    position:fixed; 
+	top:120px; 
+	left:300px;
+}
+#nameLabel{
+    position:fixed; 
+	top:120px; 
+	left:630px;
+    font-family: 'Open Sans', sans-serif;
+}
+#mailLabel{
+    position:fixed; 
+	top:200px; 
+	left:630px;
+    font-family: 'Open Sans', sans-serif;
+}
+#subjectLabel{
+    position:fixed; 
+	top:280px; 
+	left:630px;
+    font-family: 'Open Sans', sans-serif;
+}
+#messageLabel{
+    position:fixed; 
+	top:350px; 
+	left:630px;
+    font-family: 'Open Sans', sans-serif;
+}
+#ContactFormHeader{
+    position:fixed; 
+	top:70px; 
+	left:596px;
+    font-family: 'Open Sans', sans-serif;
+}
+input[type=submit]{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-family: 'Roboto';
+  margin: 4px 2px;
+  cursor: pointer;
+  position:fixed;
+  top:580px; 
+  left:596px;
+  border-radius: 10px;
+}
+/*//////////////////////////////////*/
+#ContactContainer{
+    position:fixed;
+    top:200px; 
+	left:596px;
+}
+#ContactMeH3{
+    line-height: normal;
+    font-family: providence-bold;
+    font-size: 150px;
+    position:fixed;
+    top:10px; 
+	left:435px;
+}
+#MailContact{
+    position:fixed;
+    top:300px; 
+	left:550px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.3vw;
+}
+#TwitterContact{
+    position:fixed;
+    top:350px; 
+	left:550px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.3vw;
+}
+div.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: fixed;
+    top:260px;
+    left: 200px;
+  }
+#DeadMania{
+    height: auto;
+    width: 100%;
+}
+#Games{
+    line-height: normal;
+    font-family: providence-bold;
+    font-size: 100px;
+    position:fixed;
+    top:45px; 
+	right:600px;
+}
+a:link {
+    color: rgb(255, 255, 255);
+    /* background-color: transparent; */
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+#TheGameName{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.3vw;
+}
+
+#DeadManiaBG{
+    position:fixed;
+    top:100px;
+    left:0px;
+    width:100%;
+    height:auto;
+}
+#DeadManiaLogo{
+    position:fixed;
+    top:150px;
+    left:250px;
+    width:35%;
+    height:auto;
+}
+#NewGenShooterID{
+    font-family: 'providence-bold';
+    color:#fff;
+    position:fixed;
+    top:320px;
+    left:50px;
+    font-size: 50px;
+}
+.mbtn {
+    padding:1em 5em;
+    border-radius: 8px;
+    color:#fff;
+    background-color:#1976d2;
+    font-family: 'providence-bold';
+    height: 60px;
+    width: 60px;
+    font-size:1.5em;
+    border:0;
+    cursor:pointer;
+    margin:1em;
+    position:fixed;
+    top:440px;
+    left:330px;
+  }
+#PlaySpan{
+    font-size:1.6em;
+    position:absolute;
+    top:15%;
+    left:40%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #ContactMeH3{
+        line-height: normal;
+        font-family: providence-bold;
+        font-size: 100px;
+        position:fixed;
+        top:10px; 
+        left:250px;
+    }
+    #MailContact{
+        position:fixed;
+        top:220px; 
+        left:300px;
+        font-family: 'Open Sans', sans-serif;
+        font-size:1.7vw;
+    }
+    #TwitterContact{
+        position:fixed;
+        top:250px; 
+        left:300px;
+        font-family: 'Open Sans', sans-serif;
+        font-size:1.7vw;
+    }
+    #Games{
+        line-height: normal;
+        font-family: providence-bold;
+        font-size: 100px;
+        position:fixed;
+        top:45px; 
+        right:250px;
+    }
+    div.polaroid {
+        width: 30%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        position: fixed;
+        top:280px;
+        left: 90px;
+      }
+      #DeadManiaLogo{
+        position:fixed;
+        top:200px;
+        left:350px;
+        width:30%;
+        height:auto;
+    }
+    #DeadManiaBG{
+        position:fixed;
+        top:100px;
+        left:0px;
+        width:auto;
+        height: 100%;
+    }
+    #NewGenShooterID{
+        font-family: 'providence-bold';
+        color:#fff;
+        position:fixed;
+        top:300px;
+        left:50px;
+        font-size: 45px;
+    }
+    .mbtn {
+        padding:1em 5em;
+        border-radius: 8px;
+        color:#fff;
+        background-color:#1976d2;
+        font-family: 'providence-bold';
+        height: 60px;
+        width: 60px;
+        font-size:1.5em;
+        border:0;
+        cursor:pointer;
+        margin:1em;
+        position:fixed;
+        top:410px;
+        left:330px;
+      }
+        
+}
+
+
+
