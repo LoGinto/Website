@@ -435,6 +435,26 @@ a:hover {
     .NavigationBarMobile{
         margin: 50px 0;
     }
+    #ContactMeH3{
+        line-height: normal;
+        font-family: providence-bold;
+        font-size: clamp(60px, 17.7464788732px + 8.4507042254vw, 180px);
+        position:fixed;
+        top:115px; 
+        left:125px;
+    }
+    #MailContact{
+        position:fixed;
+        font-size: 15px;
+        top:240px; 
+        left:125px;
+    }
+    #TwitterContact{
+        position:fixed;
+        font-size: 15px;
+        top:260px; 
+        left:125px;
+    }
 }
 
 
