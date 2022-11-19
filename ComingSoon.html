@@ -29,15 +29,28 @@
                 <li class = "RandStuffList"> Version 0.5</li>
                 <li class = "RandStuffList"> Raining Cycles </li>
             </ul>
-       <a href = "MainPage.html"> <img src="logo.png" alt="The logo" id = "LogoImage"></a>    
-<div>
+<div id = "MainBody">
+    <a href = "MainPage.html"> <img src="logo.png" alt="The logo" id = "LogoImage"></a>  
  <h1 id = "Coming_Soon">
     Coming soon
     </h1>
     <p class="section-header__description">Stay Tuned</p>
-    <img src="menu.png" alt="The logo" id = "MenuImage">
 </div>
-    
-</body>
 
+</div>
+<div>
+    <ul id = "NavMobileUl">
+        <li class = "NavigationBarMobile"><a href="MainPage.html" >Home</a></li>
+        <li class = "NavigationBarMobile">
+            <a href = "Games.html">Games</a>       
+        </li>
+        <li class = "NavigationBarMobile"><a href = "ContactMe.html">Contact</a></li>
+        <li class = "NavigationBarMobile"><a href = "ComingSoon.html">Blog</a></li>
+        <li class = "NavigationBarMobile" id = "CloseBtn" onclick="CloseList()">Close</li>
+    </ul>
+    <img src="menu.png" alt="The logo" id = "MenuImage" onclick="OpenList()">
+    <span class="dot"></span>
+</div>
+</body>
+<script type="text/javascript" src = "MenuForMobile.js"></script>
 </html>

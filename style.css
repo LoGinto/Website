@@ -270,6 +270,7 @@ input[type=submit]{
     font-family: 'Open Sans', sans-serif;
     font-size:1.3vw;
 }
+
 div.polaroid {
     width: 20%;
     background-color: white;
@@ -366,9 +367,15 @@ a:hover {
     #MenuImage{
         display:none;
     }
+    #NavMobileUl{
+        display:none;
+    }
 }
 @media only screen and (min-width: 480px){
     #MenuImage{
+        display:none;
+    }
+    #NavMobileUl{
         display:none;
     }
 }
@@ -415,7 +422,19 @@ a:hover {
         height: auto;
         width: 10%;
     }
-
+    #NavMobileUl{
+        display: none;
+        position:absolute; 
+        top:-20px; 
+        left:100px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        margin: 30px 0;
+        list-style-type: none;
+    }
+    .NavigationBarMobile{
+        margin: 50px 0;
+    }
 }
 
 
