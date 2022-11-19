@@ -455,6 +455,26 @@ a:hover {
         top:260px; 
         left:125px;
     }
+    #Games{
+        font-size: clamp(80px, 17.7464788732px + 8.4507042254vw, 180px);
+        position:fixed;
+        top:80px; 
+        left:135px;
+    }
+    div.polaroid {
+        width: 40%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        position: fixed;
+        top:280px;
+        left: 125px;
+      }
+    #TheGameName{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size:3vw;
+    }
 }
 
 
