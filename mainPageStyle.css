@@ -436,7 +436,121 @@ a:hover {
         top:410px;
         left:330px;
       }
+
         
+}
+@media only screen and (min-width: 1200px){
+    #NewGenShooterMobile{
+        display:none;
+    }
+    #MenuImage{
+        display:none;
+    }
+    #NavMobileUl{
+        display:none;
+    }
+}
+@media only screen and (min-width: 480px){
+    #NewGenShooterMobile{
+        display:none;
+    }
+    #NavMobileUl{
+        display:none;
+    }
+    #MenuImage{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    body{
+        background: #fff ;
+    }
+    a:link {
+        color: rgb(3, 3, 3);
+        /* background-color: transparent; */
+        text-decoration: none;
+    }
+    a:visited {
+        color: rgb(0, 0, 0);
+    }
+    #Blog{
+        display:none;
+    }
+    .dot {
+        display:none;
+      }
+      #NavUl{
+        display:none;
+      }
+    #SomeRandStuff{
+        display:none;
+    }
+    #LogoImage{
+        position:fixed; 
+        top:70px; 
+        left:170px; 
+        height: auto;
+        width: 25%;
+    }
+    #DeadManiaBG{
+        display:none;
+    }
+    #DeadManiaLogo{
+        position:fixed;
+        top:180px;
+        left:140px;
+        width:45%;
+        height:auto;
+    }
+    .mbtn {
+        padding:1em 5em;
+        border-radius: 8px;
+        color:#fff;
+        background-color:#1976d2;
+        font-family: 'providence-bold';
+        height: 60px;
+        width: 60px;
+        font-size:1.5em;
+        border:0;
+        cursor:pointer;
+        margin:1em;
+        position:fixed;
+        top:350px;
+        left:75px;
+      }
+    #NewGenShooterID{
+        display:none;
+    }
+    #NewGenShooterMobile{
+        line-height: normal;
+        font-family: providence-bold;
+        font-size: 50px;
+        position:fixed;
+        top:230px; 
+        left:100px;
+    }
+    #NavMobileUl{
+        display: none;
+        position:absolute; 
+        top:-35px; 
+        left:100px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        margin: 30px 0;
+        list-style-type: none;
+    }
+    .NavigationBarMobile{
+        margin: 50px 0;
+    }
+    #MenuImage{
+        position:fixed; 
+        top:20px; 
+        right:20px;
+        height: auto;
+        width: 10%;
+    }
+
 }
 
 
