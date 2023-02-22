@@ -17,7 +17,7 @@
 
         <div>
             <ul id = "NavUl">
-                <li class = "NavigationBar"><a href="MainPage.html" >Home</a></li>
+                <li class = "NavigationBar"><a href="index.html" >Home</a></li>
                 <li class = "NavigationBar">
                     <a href = "Games.html">Games</a>       
                 </li>
@@ -30,15 +30,16 @@
                 <li class = "RandStuffList"> Version 0.5</li>
                 <li class = "RandStuffList"> Raining Cycles </li>
             </ul>
-            <a href = "MainPage.html"> <img src="logo.png" alt="The logo" id = "LogoImage"></a>      
+            <a href = "index.html"> <img src="logo.png" alt="The logo" id = "LogoImage"></a>      
         </div>
 
     <div id = "ContactContainer">
+    <!-- <img src = "DMTMenu_vignette.jpg" alt = "DeadManiaBG" id = "DeadManiaBG"> -->
     <img src="DeadManiaBg.jpg" alt="Dead Mania BG" id = "DeadManiaBG">
     <img src="DeadManiaWhite.png" alt="Dead Mania logo" id = "DeadManiaLogo">
     <h3 id = "NewGenShooterID">Shooter overflowing with raw brutality, hard-boiled gunplay. </h3>
     <h3 id = "NewGenShooterMobile">Raw, brutal, fun</h3>
-    <a href="https://play.google.com/store/apps/details?id=com.RainingCYcles.ViciousZone" target=”_blank”>
+    <a href="https://play.google.com/store/apps/details?id=com.RainingCYcles.ViciousZone" target=”_blank” id = "URL_TO_GAME">
         <button class="mbtn"><span id = "PlaySpan">Play</span></button>
     </a>
     <img src="menu.png" alt="The logo" id = "MenuImage" onclick="OpenList()">
@@ -46,7 +47,7 @@
 
     <div>
         <ul id = "NavMobileUl">
-            <li class = "NavigationBarMobile"><a href="MainPage.html" >Home</a></li>
+            <li class = "NavigationBarMobile"><a href="index.html" >Home</a></li>
             <li class = "NavigationBarMobile">
                 <a href = "Games.html">Games</a>       
             </li>
@@ -68,6 +69,10 @@
     const _mainBody = document.getElementById("ContactContainer");
     const _logo = document.getElementById("LogoImage");
     const _polaroid = document.getElementById("Polaroid");
+    let _dmtImage = new Boolean(false);
+    
+    setInterval(ChangeImageOne,5000);
+    setInterval(ChangeImageTwo,10000);
     function OpenList(){
         console.log("Open btn");
         _list.style.display = "block";
@@ -75,6 +80,20 @@
         _mainBody.style.display = "none";
         _logo.style.display = "none";
        _polaroid.style.display = "none";
+    }
+    function ChangeImageOne(){
+        var deadManiaWhite = document.getElementById("DeadManiaLogo");
+        document.getElementById("DeadManiaBG").src="DMTMenu_vignette.jpg";
+        document.getElementById("NewGenShooterID").textContent="FIGHT AND STRATEGIZE LIKE A GENIUS IN THE DARKER CORNERS OF THE DEAD MANIA";
+        deadManiaWhite.style.display = "none";
+        document.getElementById("URL_TO_GAME").href = "https://play.google.com/store/apps/details?id=com.RainingCycles.DeadManiaTactics";
+    }
+    function ChangeImageTwo(){
+        document.getElementById("DeadManiaBG").src="DeadManiaBg.jpg";
+        var deadManiaWhite = document.getElementById("DeadManiaLogo");
+        document.getElementById("NewGenShooterID").textContent="Shooter overflowing with raw brutality, hard-boiled gunplay.";
+        deadManiaWhite.style.display = "block";
+        document.getElementById("URL_TO_GAME").href = "https://play.google.com/store/apps/details?id=com.RainingCYcles.ViciousZone";
     }
     function CloseList(){
         console.log("Close btn");

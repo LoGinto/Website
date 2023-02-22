@@ -450,6 +450,7 @@ a:hover {
         display:none;
     }
 }
+
 @media only screen and (min-width: 480px){
     #NewGenShooterMobile{
         display:none;
