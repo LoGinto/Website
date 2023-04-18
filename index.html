@@ -73,6 +73,7 @@
     
     setInterval(ChangeImageOne,5000);
     setInterval(ChangeImageTwo,10000);
+    setInterval(ChangeImageThree,2000);
     function OpenList(){
         console.log("Open btn");
         _list.style.display = "block";
@@ -94,6 +95,13 @@
         document.getElementById("NewGenShooterID").textContent="Shooter overflowing with raw brutality, hard-boiled gunplay.";
         deadManiaWhite.style.display = "block";
         document.getElementById("URL_TO_GAME").href = "https://play.google.com/store/apps/details?id=com.RainingCYcles.ViciousZone";
+    }
+    function ChangeImageTwo(){
+        document.getElementById("DeadManiaBG").src="dire_vs_light_bg-upscaled.png";
+        var deadManiaWhite = document.getElementById("DeadManiaLogo");
+        document.getElementById("NewGenShooterID").textContent="Reverse  tower defense experience.";
+        deadManiaWhite.style.display = "block";
+        document.getElementById("URL_TO_GAME").href = "https://play.google.com/store/apps/details?id=com.RainingCycles.TowerTakeover";
     }
     function CloseList(){
         console.log("Close btn");
