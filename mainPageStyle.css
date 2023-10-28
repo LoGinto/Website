@@ -326,6 +326,13 @@ a:hover {
     width:35%;
     height:auto;
 }
+#QuickDraw_Logo{
+    position:fixed;
+    top:150px;
+    left:250px;
+    width:35%;
+    height:auto;
+}
 #NewGenShooterID{
     font-family: 'providence-bold';
     color:#fff;

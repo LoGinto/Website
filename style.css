@@ -274,32 +274,43 @@ input[type=submit]{
 
 div.polaroid {
     width: 20%;
+    height: auto;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     position: fixed;
-    top:235px;
-    left: 200px;
-  }
-  div.polaroid2 {
+    top: 235px;
+    left: 50px;
+}
+
+div.polaroid2 {
     width: 20%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     position: fixed;
-    top:260px;
-    left: 800px;
-  }
-  div.polaroid3 {
-    display:block;
+    top: 235px; /* Adjusted the top value */
+    left: 400px; /* Adjusted the left value */
+}
+
+div.polaroid3 {
     width: 20%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     position: fixed;
-    top:260px;
-    left: 500px;
-  }
+    top: 235px; /* Adjusted the top value */
+    right: 400px; /* Adjusted the left value */
+}
+div.polaroid4 {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: fixed;
+    top: 235px; /* Adjusted the top value */
+    right: 50px; /* Adjusted the left value */
+}
 
 #DeadMania{
     height: auto;
@@ -422,6 +433,9 @@ a:hover {
             top:280px;
             left: 250px;
           }
+          div.polaroid4{
+            display: none;
+          }
           #Games{
             line-height: normal;
             font-family: providence-bold;
@@ -447,6 +461,7 @@ a:hover {
     #NavMobileUl{
         display:none;
     }
+    
 }
 @keyframes cf3FadeInOut {
     0% {
