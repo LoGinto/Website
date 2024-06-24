@@ -1,116 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="mainPageStyle.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raining Cycles</title>
-</head>
-
-<body>
-    <!-- <nav id="My_Navigation">
-        <a href="">Home</a> |
-        <a href="">Games</a> |
-        <a href="">Contact</a> |
-        </nav>
-        <a href="" id = "Blog">Blog</a>         -->
-
-        <div>
-            <ul id = "NavUl">
-                <li class = "NavigationBar"><a href="index.html" >Home</a></li>
-                <li class = "NavigationBar">
-                    <a href = "Games.html">Games</a>       
-                </li>
-                <li class = "NavigationBar"><a href = "ContactMe.html">Contact</a></li>
-                <li id = "Blog"><a href = "ComingSoon.html">Blog</a></li>
-            </ul>
-            <span class="dot"></span>
-        </div>
-            <ul id = "SomeRandStuff">
-                <li class = "RandStuffList"> Version 0.5</li>
-                <li class = "RandStuffList"> Raining Cycles </li>
-            </ul>
-            <a href = "index.html"> <img src="logo.png" alt="The logo" id = "LogoImage"></a>      
-        </div>
-
-    <div id = "ContactContainer">
-    <!-- <img src = "DMTMenu_vignette.jpg" alt = "DeadManiaBG" id = "DeadManiaBG"> -->
-    <img src="DeadManiaBg.jpg" alt="Dead Mania BG" id = "DeadManiaBG">
-    <img src="DeadManiaWhite.png" alt="Dead Mania logo" id = "DeadManiaLogo">
-    <h3 id = "NewGenShooterID">Shooter overflowing with raw brutality, hard-boiled gunplay. </h3>
-    <h3 id = "NewGenShooterMobile">Raw, brutal, fun</h3>
-    <a href="https://play.google.com/store/apps/details?id=com.RainingCYcles.ViciousZone" target=”_blank” id = "URL_TO_GAME">
-        <button class="mbtn"><span id = "PlaySpan">Play</span></button>
-    </a>
-    <img src="menu.png" alt="The logo" id = "MenuImage" onclick="OpenList()">
-    </div>
-
-    <div>
-        <ul id = "NavMobileUl">
-            <li class = "NavigationBarMobile"><a href="index.html" >Home</a></li>
-            <li class = "NavigationBarMobile">
-                <a href = "Games.html">Games</a>       
-            </li>
-            <li class = "NavigationBarMobile"><a href = "ContactMe.html">Contact</a></li>
-            <li class = "NavigationBarMobile"><a href = "ComingSoon.html">Blog</a></li>
-            <li class = "NavigationBarMobile" id = "CloseBtn" onclick="CloseList()">Close</li>
-        </ul>
-        <!-- <img src="menu.png" alt="The logo" id = "MenuImage" onclick="OpenList()"> -->
-        <span class="dot"></span>
-    </div>
-      
-</div>
-
-</div>
-</body>
-<script type="text/javascript">
-    const _list = document.getElementById("NavMobileUl");
-    const _menuImage = document.getElementById("MenuImage"); 
-    const _mainBody = document.getElementById("ContactContainer");
-    const _logo = document.getElementById("LogoImage");
-    const _polaroid = document.getElementById("Polaroid");
-    let _dmtImage = new Boolean(false);
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+<!--
     
-    setInterval(ChangeImageOne,5000);
-    setInterval(ChangeImageTwo,10000);
-    setInterval(ChangeImageThree,2000);
-    function OpenList(){
-        console.log("Open btn");
-        _list.style.display = "block";
-        _menuImage.style.display = "none";
-        _mainBody.style.display = "none";
-        _logo.style.display = "none";
-       _polaroid.style.display = "none";
-    }
-    function ChangeImageOne(){
-        var deadManiaWhite = document.getElementById("DeadManiaLogo");
-        document.getElementById("DeadManiaBG").src="DMTMenu_vignette.jpg";
-        document.getElementById("NewGenShooterID").textContent="FIGHT AND STRATEGIZE LIKE A GENIUS IN THE DARKER CORNERS OF THE DEAD MANIA";
-        deadManiaWhite.style.display = "none";
-        document.getElementById("URL_TO_GAME").href = "https://play.google.com/store/apps/details?id=com.RainingCycles.DeadManiaTactics";
-    }
-    function ChangeImageTwo(){
-        document.getElementById("DeadManiaBG").src="DeadManiaBg.jpg";
-        var deadManiaWhite = document.getElementById("DeadManiaLogo");
-        document.getElementById("NewGenShooterID").textContent="Shooter overflowing with raw brutality, hard-boiled gunplay.";
-        deadManiaWhite.style.display = "block";
-        document.getElementById("URL_TO_GAME").href = "https://play.google.com/store/apps/details?id=com.RainingCYcles.ViciousZone";
-    }
-    function ChangeImageTwo(){
-        document.getElementById("DeadManiaBG").src="dire_vs_light_bg-upscaled.png";
-        var deadManiaWhite = document.getElementById("DeadManiaLogo");
-        document.getElementById("NewGenShooterID").textContent="Reverse  tower defense experience.";
-        deadManiaWhite.style.display = "block";
-        document.getElementById("URL_TO_GAME").href = "https://play.google.com/store/apps/details?id=com.RainingCycles.TowerTakeover";
-    }
-    function CloseList(){
-        console.log("Close btn");
-        //if(list.style.display == "block"){
-            _list.style.display = "none";
-            _menuImage.style.display = "block";
-            _mainBody.style.display = "block";
-            _logo.style.display = "block";
-            _polaroid.style.display = "block";
-    }
+TemplateMo 556 Catalog-Z
+
+https://templatemo.com/tm-556-catalog-z
+
+-->
+</head>
+<body>
+    <!-- Page Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <!-- <i class="fas fa-film mr-2"></i> -->
+                Raining Cycles
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">Games</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">Dead Mania</h2>
+        </div>
+        <div class="row tm-mb-90">            
+            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12">
+                <img src="img/img-01-big.jpg" alt="Dead Mania BG" class="img-fluid">
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">
+                    <p class="mb-4">
+                        Meet Dead Mania, a twin-stick isometric shooter overflowing raw brutality, hard-boiled gunplay.
+Crazed zombies out for your blood await you around every corner. The only choice is clear: Get them before they get you.
+Hit back with a devastating arsenal as you make your way through 6 post apocalypse locations.
+
+                    </p>
+                    <div class="text-center mb-5">
+                        <a href="https://play.google.com/store/apps/details?id=com.RainingCYcles.ViciousZone&hl=en_US" class="btn btn-primary tm-btn-big" target="_blank">Download</a>
+                    </div>                    
+                    <div class="mb-4 d-flex flex-wrap">
+                        <div class="mr-4 mb-2">
+                            <span class="tm-text-gray-dark">Genre: </span><span class="tm-text-primary">Third Person Shooter</span>
+                        </div>
+                    </div>
+                   
+                    <div>
+                        <h3 class="tm-text-gray-dark mb-3">Tags</h3>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Action</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Shooter</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Zombies</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Isometric</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">
+                Related Games
+            </h2>
+        </div>
+        <div class="row mb-3 tm-gallery">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-01.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Dead Mania Tactics</h2>
+                        <a href="https://play.google.com/store/apps/details?id=com.RainingCycles.DeadManiaTactics&hl=en_US" target="_blank">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-dark">Dead Mania Tactics</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-02.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Tower attack</h2>
+                        <a href="https://play.google.com/store/apps/details?id=com.RainingCycles.TowerTakeover&hl=en_US" target="_blank">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-dark">Tower Attack</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/Knight.png" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Immortal messenger</h2>
+                        <a href="https://play.google.com/store/apps/details?id=com.RainingCycles.ImmortalMessenger&hl=en_US" target="_blank">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-dark">Immortal Messenger</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-04.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Rock Paper Draw</h2>
+                        <a href="https://play.google.com/store/apps/details?id=com.RainingCycles.QuickDraw&hl=en_US"target="_blank">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-dark">Rock Paper Draw</span>
+                </div>
+            </div>
+            </div>
+            </div>        
+        </div> <!-- row -->
+    </div> <!-- container-fluid, tm-container-content -->
+
+    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+        <div class="container-fluid tm-container-small">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">About Raining Cycles</h3>
+                    <p>Raining Cycles is a gamedev company ran by an ambitious man that is passionate about making mobile games.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                    <ul class="tm-social-links d-flex justify-content-end pl-0 mb-5">
+                        <li class="mb-2"><a href="https://www.facebook.com/profile.php?id=61550673237900" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li class="mb-2"><a href="https://x.com/raining_cycles"target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
     </script>
-</html>         
+</body>
+</html>
